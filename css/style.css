@@ -1,0 +1,62 @@
+
+
+
+
+/* Base Styles -------------------- */
+
+body {
+	background-color: rgba(245, 245, 245, 1);
+}
+
+h1 {
+
+}
+
+h3 {
+	text-transform: uppercase;
+}
+
+ul,
+ol {
+	list-style-type: none;
+	color: red;
+}
+
+ul li {
+	border: 1px solid red;		/* DELETE LATER */
+}
+
+
+/* Pseudo-classes ------------------ */
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: red;				/* DELETE LATER */
+}
+
+
+/* Main Styles --------------------- */
+
+.intro,
+.title,
+.main-nav,
+.portfolio,
+.contact {
+	text-align: center;
+	border: 1px solid red;		/* DELETE LATER */
+}
+
+.main-footer {
+	border: 1px solid red;  	/* DELETE LATER */
+}
+
+
+
+
+
+/* Media Queries -------------------- */
+
