@@ -1,10 +1,11 @@
-
-
-
-
 /* Base Styles -------------------- */
 
+* {
+	box-sizing: border-box;
+}
+
 body {
+	font-family: 'Varela Round', sans-serif;
 	background-color: rgba(245, 245, 245, 1);
 }
 
@@ -18,12 +19,21 @@ h3 {
 
 ul,
 ol {
+	margin: 2em 0;
 	list-style-type: none;
-	color: red;
+	color: red;					/* DELETE LATER */
 }
 
 ul li {
 	border: 1px solid red;		/* DELETE LATER */
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
 }
 
 
@@ -42,13 +52,33 @@ a:visited {
 /* Main Styles --------------------- */
 
 .intro,
-.title,
-.main-nav,
 .portfolio,
 .contact {
 	text-align: center;
 	border: 1px solid red;		/* DELETE LATER */
 }
+
+.main-nav {
+	background-color: white;
+	text-transform: uppercase;
+}
+
+.intro,
+.container,
+.content,
+.contact {
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+.title a,
+.main-nav a {
+	display: block;
+	text-align: center;
+	padding: 10px 15px;
+}
+
+
 
 .main-footer {
 	border: 1px solid red;  	/* DELETE LATER */
