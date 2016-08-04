@@ -84,7 +84,30 @@ a:visited {
 	border: 1px solid red;  	/* DELETE LATER */
 }
 
+/* IMAGES */
 
+.avatar {
+	width: 80%;
+	max-width: 100%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.port-img {
+	max-width: 100%;
+	margin-bottom: 1em;
+}
+
+.portfolio h3 {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.content p {
+	padding-right: 1em;
+	padding-left: 1em;
+	margin-bottom: 2em;
+}
 
 
 
