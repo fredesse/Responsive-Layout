@@ -128,6 +128,9 @@ a:visited {
 	margin-bottom: 2em;
 }
 
+.content {
+	border: 1px solid blue;			/* DELETE LATER */
+}
 
 
 /* Media Queries -------------------- */
