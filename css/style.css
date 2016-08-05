@@ -195,16 +195,22 @@ a:visited {
 
 	.intro {
 		margin: 0 auto;
-		border: 1px solid red;
 	}
 
 	.primary,
 	.secondary {
 		width: 50%;
 		float: right;
-		margin: 0;
 	}
 
+	.avatar {
+		width: 100%;
+	}
+
+	.secondary {
+		padding-right: 1em;
+		font-size: 1.3em;
+	}
 
 	/* ---- Float clearfix ---- */
 
