@@ -60,7 +60,7 @@ a:visited {
 }
 
 
-/* Main Styles --------------------- */
+/* Main Styles & Layout --------------------- */
 
 .intro,
 .portfolio,
@@ -193,6 +193,10 @@ a:visited {
 
 	/*----- Intro and avatar -------*/
 
+	.intro {
+		padding-left: 2em;
+		padding-right: 2em; 
+	}
 
 	.primary,
 	.secondary {
@@ -205,7 +209,7 @@ a:visited {
 	}
 
 	.secondary {
-		padding-right: 1em;
+		padding-right: 1.5em;
 		font-size: 1.3em;
 	}
 
@@ -233,6 +237,38 @@ a:visited {
 		clear: both;
 	}
 
+	.last-content {
+		width: 80%;
+		margin: 0 auto;
+		padding-bottom: 2em;
+	}
+
+	/* ---- Contact ---- */
+
+		.contact {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	/* ---- Footer ---- */
+
+	.mobile-footer {
+		display: none;
+	}
+
+	.footer-nav {
+		display: inline-block;
+		float: right;
+		font-size: .85em;
+		text-transform: uppercase;
+		margin-top: .83em;
+	}
+
+	.footer-nav li {
+		display: inline-block;
+		margin-left: 2.5em;
+	}
+
 
 	/* ---- Float clearfix ---- */
 
@@ -241,6 +277,8 @@ a:visited {
 		display: table;
 		clear: both;
 	}
+
+
 
 
 }
