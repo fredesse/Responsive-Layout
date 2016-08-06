@@ -176,6 +176,7 @@ a:visited {
 	.container {
 		margin-left: 1em;
 		margin-right: 1em;
+		padding-top: 2em;
 	}
 
 	.main-nav {
@@ -192,6 +193,7 @@ a:visited {
 	}
 
 	/*----- Intro and avatar -------*/
+
 
 	.intro {
 		padding-left: 2em;
@@ -214,6 +216,7 @@ a:visited {
 	}
 
 	.secondary p {
+		text-align: left;
 		line-height: 1.6;
 	}
 
@@ -231,9 +234,7 @@ a:visited {
 		padding-right: 2em;
 	}
 
-	.stack-two,
-	.stack-three,
-	.stack-four {
+	.stack-two {
 		clear: both;
 	}
 
@@ -245,7 +246,7 @@ a:visited {
 
 	/* ---- Contact ---- */
 
-		.contact {
+	.contact {
 		width: 80%;
 		margin: 0 auto;
 	}
@@ -278,18 +279,60 @@ a:visited {
 		clear: both;
 	}
 
-
-
-
 }
 
 @media (min-width: 1024px) {
 
-}
+	.wrapper {
+		max-width: 1150px;
+		margin: 0 auto;
+	}
+
+	/* ----- Title & navigation ----*/
+
+	.container {
+		margin: 0 auto;
+	}
+
+	.title {
+		float: left;
+	}
+
+	.main-nav {
+		float: right;
+	}
+
+	.main-nav li {
+		display: inline-block;
+		margin-left: 1em;
+	}
+
+
+	/* ----- Portfolio layout ----*/
+
+	.content,
+	.last-content {
+		display: inline-block;
+		width: 33.33%
+	}
+
+	.stack-two {
+		clear: none;
+	}
+
+	.stack-three {
+		clear: both;
+	}
+
+	.last-content {
+		margin-top: 2em;
+		padding-left: 2em;
+		padding-right: 2em;
+	}
 
 
 
-
+}	
 
 
 
