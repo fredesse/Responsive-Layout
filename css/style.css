@@ -6,7 +6,7 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
-	background-color: rgb(255, 173, 51);
+	background-color: rgb(250, 248, 248);
 	color: rgba(64, 64, 64, 1);
 	font-weight: 300;
 }
@@ -87,7 +87,7 @@ a:visited {
 	display: block;
 	text-align: center;
 	padding: 10px 15px;
-	color: rgb(26, 140, 255);
+	color: rgba(64, 64, 64, 1);
 }
 
 .title a {
@@ -97,7 +97,7 @@ a:visited {
 .portfolio,
 .main-nav a,
 .skills {
-	background-color: rgba(255, 179, 255, .8);
+	background-color: white;
 }
 
 .contact {
@@ -107,12 +107,10 @@ a:visited {
 
 .contact h2 {
 	margin-bottom: 1.5em;
-	color: rgb(26, 140, 255);
 }
 
 .contact p a {
 	margin-left: 10px;
-	color: rgb(26, 140, 255);
 }
 
 .skills {
@@ -141,17 +139,12 @@ a:visited {
 	padding-left: 0;
 	font-size: 0.85em;
 	text-transform: capitalize;
-	color: rgb(26, 140, 255);
 }
 
 .mobile-footer {
 	float: right;
 	font-size: 0.85em;
 	text-transform: uppercase;
-}
-
-.mobile-footer a {
-	color: rgb(26, 140, 255);
 }
 
 .footer-nav {
@@ -174,6 +167,9 @@ a:visited {
 .port-img {
 	max-width: 100%;
 	margin-bottom: 1em;
+	box-shadow: 0 10px 6px -6px #777;
+	-webkit-box-shadow: 0 10px 6px -6px #777;
+	-moz-box-shadow: 0 10px 6px -6px #777;
 }
 
 .portfolio h2 {
@@ -241,7 +237,7 @@ a:visited {
 	}
 
 	.main-nav a {
-		background-color: rgb(255, 173, 51);
+		background-color: rgb(250, 248, 248);
 	}
 
 	/*----- Intro and avatar -------*/
@@ -333,10 +329,6 @@ a:visited {
 	.footer-nav li {
 		display: inline-block;
 		margin-left: 2.5em;
-	}
-
-	.footer-nav a {
-		color: rgb(26, 140, 255);
 	}
 
 
