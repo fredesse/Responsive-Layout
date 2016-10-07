@@ -304,8 +304,6 @@ a:hover {
       display: none; } }
 .container input:checked ~ ul {
   display: block; }
-  .container input:checked ~ ul li {
-    width: 100%; }
 
 .intro, .contact, .skills, .portfolio, .title a,
 .main-nav a {
@@ -349,7 +347,9 @@ h2, .footer-mobile, .main-nav {
 
 .port-img {
   max-width: 100%;
-  margin-bottom: 1em;
+  margin-bottom: 1em; }
+
+.port-img {
   box-shadow: 0 10px 6px -6px #777;
   -webkit-box-shadow: 0 10px 6px -6px #777;
   -moz-box-shadow: 0 10px 6px -6px #777; }
