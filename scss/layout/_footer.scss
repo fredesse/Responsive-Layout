@@ -21,7 +21,7 @@
 		@include tablet {
 			display: inline-block;
 			float: right;
-			font-size: .85em;
+			font-size: $f-size-footer;
 			margin-top: .83em;
 			text-transform: uppercase;
 		}

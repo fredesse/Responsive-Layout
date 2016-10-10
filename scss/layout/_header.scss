@@ -10,7 +10,7 @@
 		float: right;
 	}
 }
-
+ 
 .title a,
 .main-nav a {
 	@extend %centered;
@@ -75,7 +75,7 @@
 			right: .3em;
 			bottom: -16px;
 			content: "\2261";
-			font-size: 4em;
+			font-size: $f-size-label;
 			color: $tundora;
 		}
 
